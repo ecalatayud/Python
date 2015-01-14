@@ -4,7 +4,7 @@ from shutil import copy, copyfile
 
 jars_viejos_y_nuevos = {}
 dir_subidas=["/software/final/destination/one", "/software/final/destination/two"]
-dir_new_fich="/app/PorticApps/subida"
+dir_new_fich="/new/jars/location"
 
 """ Search files in directory tree from part of the filename"""
 def busca_fich(fichero, directorio):
